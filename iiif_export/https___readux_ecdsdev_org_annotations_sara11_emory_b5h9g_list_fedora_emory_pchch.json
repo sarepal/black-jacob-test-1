@@ -1,0 +1,88 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "@id": "https://readux.ecdsdev.org/annotations/sara11/emory:b5h9g/list/fedora:emory:pchch",
+    "resources": [
+        {
+            "annotatedBy": {
+                "name": "sara11"
+            },
+            "@id": "2745f129-9786-416c-a137-a414df466af8",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=235,825,376,307",
+                    "item": {
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=235,825,376,307"
+                        },
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M234.71103,825.27873h188.00462v0h188.00462v153.32827v153.32827h-188.00462h-188.00462v-153.32827z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_197bd806-3007-44a2-b8f3-7050972c4996\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    }
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/canvas/fedora:emory:pchch"
+            },
+            "resource": {
+                "chars": "<p>shape annotation</p>",
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+            "annotatedBy": {
+                "name": "sara11"
+            },
+            "@id": "b0e197fc-4a65-4810-b4a4-61e4cad05535",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=330,588,706,90",
+                    "item": {
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='0d1aba25-2dd9-4f43-81d0-545f17462681']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='65e42f88-b168-4c57-b1e5-3e8a815ea9da']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 11
+                            }
+                        }
+                    }
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/canvas/fedora:emory:pchch"
+            },
+            "resource": {
+                "chars": "<p>text annotation: title</p>",
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+    ]
+}
